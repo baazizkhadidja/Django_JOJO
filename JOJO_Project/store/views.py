@@ -1,8 +1,10 @@
-#from django.shortcuts import render
+from django.shortcuts import render
 from django.http import HttpResponse
-from .models import Album, Gateau
-# Create your views here.
+from .models import Album, Gateau, Contact, Booking
+
+
 def index(request):
-    message = "hello"
-    return HttpResponse(message)
+    albums = Album.objects.filter(available = True).order_by('-created_at')[:12]
+    context = {'albums': albums}
+    return render(request, 'store/index.html', context)
 
