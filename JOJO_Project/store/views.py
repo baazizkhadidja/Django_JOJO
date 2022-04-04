@@ -4,7 +4,7 @@ from .models import Album, Gateau, Contact, Booking
 
 
 def index(request):
-    albums = Album.objects.filter(available = True).order_by('-created_at')[:12]
-    context = {'albums': albums}
+    gateaux = Gateau.objects.all()
+    context = {'gateaux': gateaux}
     return render(request, 'store/index.html', context)
 

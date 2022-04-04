@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'debug_toolbar',
-    
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
@@ -52,7 +52,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'debug_toolbar.middleware.DebugToolbarMiddleware',
-]   
+]
 
 ROOT_URLCONF = 'JOJO_Project.urls'
 
@@ -60,7 +60,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [],
-        'DIRS': [os.path.join(BASE_DIR, 'templates/store')],
+        #'DIRS': [os.path.join(BASE_DIR, 'templates/store')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -84,11 +84,11 @@ WSGI_APPLICATION = 'JOJO_Project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'JOJO',
+        'NAME': 'doody',
         'USER': 'khadidjabaaziz',
         'PASSWORD': '',
         'HOST': '',
-        'PORT': '5432',
+        'PORT': '5431',
     }
 }
 
@@ -129,7 +129,20 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
+
+
+
 STATIC_URL = '/static/'
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(os.path.dirname(BASE_DIR), "/store/static", "media")
+STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), "/store/static", "static_root")
+
+STATICFILES_DIRS = [
+    os.path.join(os.path.dirname(BASE_DIR), "store/static", "static_files")
+
+]
+
+
 
 
 INTERNAL_IPS = ['127.0.0.1']

@@ -1,0 +1,1552 @@
+[
+{
+  "model": "store.album",
+  "pk": 1,
+  "fields": {
+    "name": "Traditionnel"
+  }
+},
+{
+  "model": "store.album",
+  "pk": 2,
+  "fields": {
+    "name": "Fêtes"
+  }
+},
+{
+  "model": "store.album",
+  "pk": 3,
+  "fields": {
+    "name": "Anniversaire"
+  }
+},
+{
+  "model": "store.gateau",
+  "pk": 1,
+  "fields": {
+    "reference": 1,
+    "created_at": "2021-12-03T09:35:48.295Z",
+    "available": true,
+    "title": "Makroud",
+    "photo": "photo/makroud_var.JPG",
+    "albums": [
+      1
+    ]
+  }
+},
+{
+  "model": "store.gateau",
+  "pk": 2,
+  "fields": {
+    "reference": 2,
+    "created_at": "2021-12-03T09:37:06.927Z",
+    "available": true,
+    "title": "Babies",
+    "photo": "photo/Baby_varie.JPG",
+    "albums": [
+      3
+    ]
+  }
+},
+{
+  "model": "store.gateau",
+  "pk": 3,
+  "fields": {
+    "reference": 3,
+    "created_at": "2021-12-03T09:37:40.794Z",
+    "available": true,
+    "title": "Boule chocola",
+    "photo": "photo/boule_choc_var.JPG",
+    "albums": [
+      2
+    ]
+  }
+},
+{
+  "model": "store.gateau",
+  "pk": 4,
+  "fields": {
+    "reference": 4,
+    "created_at": "2021-12-03T09:38:12.328Z",
+    "available": true,
+    "title": "Boussou",
+    "photo": "photo/Boussou.JPG",
+    "albums": [
+      1
+    ]
+  }
+},
+{
+  "model": "store.gateau",
+  "pk": 5,
+  "fields": {
+    "reference": 98,
+    "created_at": "2021-12-03T11:41:48.613Z",
+    "available": true,
+    "title": "Champignon",
+    "photo": "photo/Champignon.JPG",
+    "albums": [
+      2
+    ]
+  }
+},
+{
+  "model": "store.gateau",
+  "pk": 6,
+  "fields": {
+    "reference": 767,
+    "created_at": "2021-12-03T11:42:37.153Z",
+    "available": true,
+    "title": "Coquille miel",
+    "photo": "photo/Coquille_miel.JPG",
+    "albums": [
+      1
+    ]
+  }
+},
+{
+  "model": "store.gateau",
+  "pk": 7,
+  "fields": {
+    "reference": 654,
+    "created_at": "2021-12-03T11:43:18.983Z",
+    "available": true,
+    "title": "Coquille verte",
+    "photo": "photo/coquille_verte.JPG",
+    "albums": [
+      2
+    ]
+  }
+},
+{
+  "model": "store.gateau",
+  "pk": 8,
+  "fields": {
+    "reference": 876,
+    "created_at": "2021-12-03T11:43:58.533Z",
+    "available": true,
+    "title": "Panier",
+    "photo": "photo/panier.JPG",
+    "albums": [
+      2
+    ]
+  }
+},
+{
+  "model": "store.gateau",
+  "pk": 9,
+  "fields": {
+    "reference": 934,
+    "created_at": "2021-12-03T11:45:07.683Z",
+    "available": true,
+    "title": "Variété",
+    "photo": "photo/varie1.JPG",
+    "albums": [
+      1
+    ]
+  }
+},
+{
+  "model": "store.gateau",
+  "pk": 10,
+  "fields": {
+    "reference": 876,
+    "created_at": "2021-12-03T11:45:43.923Z",
+    "available": true,
+    "title": "Oeuf rose",
+    "photo": "photo/Oeuf_var.JPG",
+    "albums": [
+      2
+    ]
+  }
+},
+{
+  "model": "store.gateau",
+  "pk": 11,
+  "fields": {
+    "reference": 765,
+    "created_at": "2021-12-03T11:46:23.662Z",
+    "available": true,
+    "title": "Araich variété",
+    "photo": "photo/Araich_var.JPG",
+    "albums": [
+      1
+    ]
+  }
+},
+{
+  "model": "store.gateau",
+  "pk": 12,
+  "fields": {
+    "reference": 765,
+    "created_at": "2021-12-03T11:46:57.313Z",
+    "available": true,
+    "title": "Boulle blanche",
+    "photo": "photo/boulle_blanche.JPG",
+    "albums": [
+      2
+    ]
+  }
+},
+{
+  "model": "store.gateau",
+  "pk": 13,
+  "fields": {
+    "reference": 987,
+    "created_at": "2021-12-03T11:48:41.818Z",
+    "available": true,
+    "title": "Coquille vert",
+    "photo": "photo/coquille_vert_var.JPG",
+    "albums": [
+      3
+    ]
+  }
+},
+{
+  "model": "store.gateau",
+  "pk": 14,
+  "fields": {
+    "reference": 873,
+    "created_at": "2021-12-03T11:49:23.292Z",
+    "available": true,
+    "title": "Boule tarte",
+    "photo": "photo/boulle_tart.JPG",
+    "albums": [
+      3
+    ]
+  }
+},
+{
+  "model": "store.gateau",
+  "pk": 15,
+  "fields": {
+    "reference": 890,
+    "created_at": "2021-12-03T11:55:11.632Z",
+    "available": true,
+    "title": "Babies blue",
+    "photo": "photo/baby_bleu_var.JPG",
+    "albums": [
+      3
+    ]
+  }
+},
+{
+  "model": "store.gateau",
+  "pk": 16,
+  "fields": {
+    "reference": 765,
+    "created_at": "2021-12-03T11:56:03.501Z",
+    "available": true,
+    "title": "Makroud louz",
+    "photo": "photo/makroud_var_q0yA94w.JPG",
+    "albums": [
+      1
+    ]
+  }
+},
+{
+  "model": "store.gateau",
+  "pk": 17,
+  "fields": {
+    "reference": 874,
+    "created_at": "2021-12-03T11:56:31.606Z",
+    "available": true,
+    "title": "Clouns",
+    "photo": "photo/cloun_var.JPG",
+    "albums": [
+      3
+    ]
+  }
+},
+{
+  "model": "store.gateau",
+  "pk": 18,
+  "fields": {
+    "reference": 698,
+    "created_at": "2021-12-03T11:57:08.277Z",
+    "available": true,
+    "title": "Cloun",
+    "photo": "photo/cloun.JPG",
+    "albums": [
+      3
+    ]
+  }
+},
+{
+  "model": "store.gateau",
+  "pk": 19,
+  "fields": {
+    "reference": 12,
+    "created_at": "2021-12-03T11:57:38.581Z",
+    "available": true,
+    "title": "Boulle chocolat",
+    "photo": "photo/boule_choc_var_SNF41ht.JPG",
+    "albums": [
+      2
+    ]
+  }
+},
+{
+  "model": "store.gateau",
+  "pk": 20,
+  "fields": {
+    "reference": 876,
+    "created_at": "2021-12-03T11:58:13.194Z",
+    "available": true,
+    "title": "Courone",
+    "photo": "photo/Couronne.JPG",
+    "albums": [
+      1
+    ]
+  }
+},
+{
+  "model": "store.gateau",
+  "pk": 21,
+  "fields": {
+    "reference": 940,
+    "created_at": "2021-12-03T11:58:51.534Z",
+    "available": true,
+    "title": "Babies colors",
+    "photo": "photo/baby_var.JPG",
+    "albums": [
+      3
+    ]
+  }
+},
+{
+  "model": "store.gateau",
+  "pk": 22,
+  "fields": {
+    "reference": 32,
+    "created_at": "2021-12-03T11:59:17.640Z",
+    "available": true,
+    "title": "Baby jaune",
+    "photo": "photo/baby_jaune.JPG",
+    "albums": [
+      3
+    ]
+  }
+},
+{
+  "model": "store.gateau",
+  "pk": 23,
+  "fields": {
+    "reference": 650,
+    "created_at": "2021-12-03T11:59:46.256Z",
+    "available": true,
+    "title": "Babies",
+    "photo": "photo/baby_var1.JPG",
+    "albums": [
+      3
+    ]
+  }
+},
+{
+  "model": "store.gateau",
+  "pk": 24,
+  "fields": {
+    "reference": 849,
+    "created_at": "2021-12-03T12:00:13.790Z",
+    "available": true,
+    "title": "Citron",
+    "photo": "photo/citron.JPG",
+    "albums": [
+      1
+    ]
+  }
+},
+{
+  "model": "store.gateau",
+  "pk": 25,
+  "fields": {
+    "reference": 987,
+    "created_at": "2021-12-03T12:08:59.224Z",
+    "available": true,
+    "title": "Shan",
+    "photo": "photo/enfant.JPG",
+    "albums": [
+      3
+    ]
+  }
+},
+{
+  "model": "store.gateau",
+  "pk": 26,
+  "fields": {
+    "reference": 876,
+    "created_at": "2021-12-03T12:09:47.971Z",
+    "available": true,
+    "title": "Flowers",
+    "photo": "photo/fleur_var.JPG",
+    "albums": [
+      1
+    ]
+  }
+},
+{
+  "model": "store.gateau",
+  "pk": 27,
+  "fields": {
+    "reference": 701,
+    "created_at": "2021-12-03T12:10:54.252Z",
+    "available": true,
+    "title": "Baby tool",
+    "photo": "photo/baby_var_zRm3XtZ.JPG",
+    "albums": [
+      3
+    ]
+  }
+},
+{
+  "model": "store.gateau",
+  "pk": 28,
+  "fields": {
+    "reference": 987,
+    "created_at": "2021-12-03T12:11:18.010Z",
+    "available": true,
+    "title": "Araich doré",
+    "photo": "photo/araych.JPG",
+    "albums": [
+      1
+    ]
+  }
+},
+{
+  "model": "store.gateau",
+  "pk": 29,
+  "fields": {
+    "reference": 944,
+    "created_at": "2021-12-03T12:12:05.012Z",
+    "available": true,
+    "title": "Boulles rose",
+    "photo": "photo/boule_rose_var.JPG",
+    "albums": [
+      1
+    ]
+  }
+},
+{
+  "model": "store.gateau",
+  "pk": 30,
+  "fields": {
+    "reference": 777,
+    "created_at": "2021-12-03T12:12:35.728Z",
+    "available": true,
+    "title": "Noix Miel",
+    "photo": "photo/carre_miel.JPG",
+    "albums": [
+      1
+    ]
+  }
+},
+{
+  "model": "store.gateau",
+  "pk": 31,
+  "fields": {
+    "reference": 888,
+    "created_at": "2021-12-03T12:29:53.037Z",
+    "available": true,
+    "title": "Cow",
+    "photo": "photo/cow.JPG",
+    "albums": [
+      3
+    ]
+  }
+},
+{
+  "model": "store.gateau",
+  "pk": 32,
+  "fields": {
+    "reference": 9,
+    "created_at": "2021-12-03T12:30:27.508Z",
+    "available": true,
+    "title": "Pie",
+    "photo": "photo/pie.JPG",
+    "albums": [
+      3
+    ]
+  }
+},
+{
+  "model": "store.gateau",
+  "pk": 33,
+  "fields": {
+    "reference": 777,
+    "created_at": "2021-12-03T12:31:02.869Z",
+    "available": true,
+    "title": "Madeleine",
+    "photo": "photo/Maleleine.JPG",
+    "albums": [
+      3
+    ]
+  }
+},
+{
+  "model": "store.gateau",
+  "pk": 34,
+  "fields": {
+    "reference": 667,
+    "created_at": "2021-12-03T12:32:10.494Z",
+    "available": true,
+    "title": "Pièce",
+    "photo": "photo/Piece.JPG",
+    "albums": [
+      3
+    ]
+  }
+},
+{
+  "model": "store.gateau",
+  "pk": 35,
+  "fields": {
+    "reference": 111,
+    "created_at": "2021-12-03T12:32:39.469Z",
+    "available": true,
+    "title": "Cake farm",
+    "photo": "photo/image_6483441_33.JPG",
+    "albums": [
+      3
+    ]
+  }
+},
+{
+  "model": "store.gateau",
+  "pk": 36,
+  "fields": {
+    "reference": 876,
+    "created_at": "2021-12-03T12:33:23.546Z",
+    "available": true,
+    "title": "Cake Chiken",
+    "photo": "photo/image_6483441_34.JPG",
+    "albums": [
+      3
+    ]
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2021-12-03T08:33:28.647Z",
+    "user": 1,
+    "content_type": 1,
+    "object_id": "1",
+    "object_repr": "Traditionnel",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2021-12-03T08:34:13.077Z",
+    "user": 1,
+    "content_type": 1,
+    "object_id": "2",
+    "object_repr": "Fêtes",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2021-12-03T08:34:23.585Z",
+    "user": 1,
+    "content_type": 1,
+    "object_id": "3",
+    "object_repr": "Anniversaire",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2021-12-03T09:35:48.334Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "1",
+    "object_repr": "Makroud",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2021-12-03T09:37:06.958Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "2",
+    "object_repr": "Babies",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2021-12-03T09:37:40.826Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "3",
+    "object_repr": "Boule chocola",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2021-12-03T09:38:12.363Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "4",
+    "object_repr": "Boussou",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2021-12-03T11:41:48.648Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "5",
+    "object_repr": "Champignon",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2021-12-03T11:42:37.187Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "6",
+    "object_repr": "Coquille miel",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2021-12-03T11:43:19.015Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "7",
+    "object_repr": "Coquille verte",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2021-12-03T11:43:58.565Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "8",
+    "object_repr": "Panier",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2021-12-03T11:45:07.714Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "9",
+    "object_repr": "Variété",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2021-12-03T11:45:43.959Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "10",
+    "object_repr": "Oeuf rose",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2021-12-03T11:46:23.696Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "11",
+    "object_repr": "Araich variété",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2021-12-03T11:46:57.346Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "12",
+    "object_repr": "Boulle blanche",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2021-12-03T11:48:41.846Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "13",
+    "object_repr": "Coquille vert",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2021-12-03T11:49:23.326Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "14",
+    "object_repr": "Boule tarte",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2021-12-03T11:55:11.658Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "15",
+    "object_repr": "Babies blue",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2021-12-03T11:56:03.535Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "16",
+    "object_repr": "Makroud louz",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2021-12-03T11:56:31.642Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "17",
+    "object_repr": "Clouns",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2021-12-03T11:57:08.308Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "18",
+    "object_repr": "Cloun",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2021-12-03T11:57:38.608Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "19",
+    "object_repr": "Boulle chocolat",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2021-12-03T11:58:13.227Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "20",
+    "object_repr": "Courone",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2021-12-03T11:58:51.568Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "21",
+    "object_repr": "Babies colors",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2021-12-03T11:59:17.674Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "22",
+    "object_repr": "Baby jaune",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2021-12-03T11:59:46.291Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "23",
+    "object_repr": "Babies",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2021-12-03T12:00:13.819Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "24",
+    "object_repr": "Citron",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2021-12-03T12:08:59.259Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "25",
+    "object_repr": "Shan",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2021-12-03T12:09:48.007Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "26",
+    "object_repr": "Flowers",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2021-12-03T12:10:54.283Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "27",
+    "object_repr": "Baby tool",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2021-12-03T12:11:18.037Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "28",
+    "object_repr": "Araich doré",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2021-12-03T12:12:05.042Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "29",
+    "object_repr": "Boulles rose",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2021-12-03T12:12:35.759Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "30",
+    "object_repr": "Noix Miel",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2021-12-03T12:29:53.073Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "31",
+    "object_repr": "Cow",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2021-12-03T12:30:27.548Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "32",
+    "object_repr": "Pie",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2021-12-03T12:31:02.901Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "33",
+    "object_repr": "Madeleine",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2021-12-03T12:32:10.526Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "34",
+    "object_repr": "Pièce",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2021-12-03T12:32:39.503Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "35",
+    "object_repr": "Cake farm",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2021-12-03T12:33:23.577Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "36",
+    "object_repr": "Cake Chiken",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2021-12-03T12:33:59.140Z",
+    "user": 1,
+    "content_type": 1,
+    "object_id": "1",
+    "object_repr": "Traditionnel",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2021-12-03T12:34:02.927Z",
+    "user": 1,
+    "content_type": 1,
+    "object_id": "3",
+    "object_repr": "Anniversaire",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2021-12-07T09:21:46.566Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "37",
+    "object_repr": "TEST",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2021-12-07T10:34:53.629Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "37",
+    "object_repr": "TEST",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add album",
+    "content_type": 1,
+    "codename": "add_album"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change album",
+    "content_type": 1,
+    "codename": "change_album"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete album",
+    "content_type": 1,
+    "codename": "delete_album"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view album",
+    "content_type": 1,
+    "codename": "view_album"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add contact",
+    "content_type": 2,
+    "codename": "add_contact"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change contact",
+    "content_type": 2,
+    "codename": "change_contact"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete contact",
+    "content_type": 2,
+    "codename": "delete_contact"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view contact",
+    "content_type": 2,
+    "codename": "view_contact"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add gateau",
+    "content_type": 3,
+    "codename": "add_gateau"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change gateau",
+    "content_type": 3,
+    "codename": "change_gateau"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete gateau",
+    "content_type": 3,
+    "codename": "delete_gateau"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view gateau",
+    "content_type": 3,
+    "codename": "view_gateau"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add réservation",
+    "content_type": 4,
+    "codename": "add_booking"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change réservation",
+    "content_type": 4,
+    "codename": "change_booking"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete réservation",
+    "content_type": 4,
+    "codename": "delete_booking"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view réservation",
+    "content_type": 4,
+    "codename": "view_booking"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 5,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 5,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 5,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 5,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 6,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 6,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 6,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 6,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 7,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 7,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 7,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 7,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 8,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 8,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 8,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 8,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 9,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 9,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 9,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 9,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 10,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 10,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 10,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 10,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$t8phIepJVD9kJa11SlvCgE$6pUR2WrKAOkdXFWdpPFPv78yAL/4UHkM/jcfTscGEak=",
+    "last_login": "2021-12-03T08:32:34.256Z",
+    "is_superuser": true,
+    "username": "doody",
+    "first_name": "",
+    "last_name": "",
+    "email": "baazize-khadija@hotmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2021-12-03T08:31:48.609Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "store",
+    "model": "album"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "store",
+    "model": "contact"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "store",
+    "model": "gateau"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "store",
+    "model": "booking"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "gma5hdsnpqztcf4f600pshdau0ih013f",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-r0NJzxmsXX9wANlSnFSIu0OkFNC-mXkvFnBba9hGXsKc2JlJdvrdCOMjtx2kO7Zb57G3dZmJ7wo_6ODXnvLzcrh_BxVH_dalEChJhlyxUZKLSBqU904oC5bQuwk0JEM6iljAgC1qytnK5NB5Kdj7A-n4N6s:1mt3ze:66xGR-x9Yf2kU5QxYG2ywUTVSWEqsgY0qBHOul43eWA",
+    "expire_date": "2021-12-17T08:32:34.279Z"
+  }
+}
+]
